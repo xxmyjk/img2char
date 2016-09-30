@@ -50,7 +50,7 @@ var img2char = (param) => {
                     for (var i = 0; i < rs.length; i ++) {
                         text += get_char(rs[i]);
 
-                        if (i % width == 0 ){
+                        if ((i+1) % width == 0 ){
                             text += '\n';
                         }
                     }
