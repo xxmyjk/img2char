@@ -81,7 +81,7 @@ var img2char = (param) => {
 
 program
     .version('0.0.1')
-    .usage('[options] <file ...>')
+    .usage('[options] <file ...> \n  Convert file to char. \n\n  file can be a buffer or a string. \n  Buffer containing JPEG, PNG, WebP, GIF, SVG, TIFF or raw pixel image data, or \n  String containing the path to an JPEG, PNG, WebP, GIF, SVG or TIFF image file.')
     .option('-i, --input <path>', 'input image path')
     .option('-o, --output <path>', 'output txt path, default to standard out')
     .option('-w, --width <width>', 'resize picture width, default to the origin width')
