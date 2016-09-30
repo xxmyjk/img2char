@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "基于node的图片到字符画转换工具",
   "main": "index.js",
+  "bin": {
+    "img2char": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
