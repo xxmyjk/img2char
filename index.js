@@ -43,6 +43,7 @@ var img2char = (param) => {
                 .resize(width, null, {
                     interpolator: sharp.interpolator.nearest
                 })
+                .threshold(150)
                 .greyscale()
                 .raw()
                 .toBuffer()
